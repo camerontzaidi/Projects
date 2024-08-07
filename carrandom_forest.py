@@ -1,10 +1,5 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
-Created on Mon May 13 14:32:58 2024
-
-@author: sirbizz
-"""
 
 import pandas as pd
 import numpy as np
