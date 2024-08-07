@@ -34,7 +34,7 @@ The Random Forest model achieved a high ROC-AUC score of 0.6979 and an F1-score 
 
 ## Discussion
 
-This approach demonstrated several strengths, including robust data preprocessing, effective class imbalance handling through SMOTE, and meticulous hyperparameter tuning with GridSearchCV and Hyperopt. The Random Forest model's ROC-AUC score of 0.6979 and the Neural Network model's overall accuracy and F1-score of 0.89 were notable. The choice of a 60/40 data split may have impacted generalizability compared to the commonly used 80/20 split. Exploring more advanced feature engineering techniques, additional ensemble methods, and deeper neural network architectures could improve the models further. Future work could focus on these enhancements and experiment with other oversampling and undersampling techniques to handle class imbalances more effectively.
+This approach demonstrated several strengths, including robust data preprocessing, effective class imbalance handling through SMOTE, and meticulous hyperparameter tuning with GridSearchCV and Hyperopt. The Neural Network's ROC-AUC score of 0.6979 and the Random Forest model's overall accuracy and F1-score of 0.89 were notable. The choice of a 60/40 data split may have impacted generalizability compared to the commonly used 80/20 split. Exploring more advanced feature engineering techniques, additional ensemble methods, and deeper neural network architectures could improve the models further. Future work could focus on these enhancements and experiment with other oversampling and undersampling techniques to handle class imbalances more effectively.
 
 ## Conclusion
 
