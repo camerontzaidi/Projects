@@ -1,11 +1,5 @@
 # Projects
 
-
-Goals and Motivation
-Federal law (U.S.)  requires every driver to have car insurance, which protects pedestrians and other motorists not only from accidents, but also natural disasters. Since around 91% of Americans have a driver license¹ and subsequently car insurance, our group was interested in diving deeper into the world of automobile insurance. 
-In the insurance industry, one of the most important utilizations of predictive models and user data is the construction of a reliable claim likelihood prediction system, which dictates policy pricing and risk assessment on a case-to-case basis. Meaning, that a poorly trained model can have severe financial repercussions for drivers, pedestrians, and insurance companies themselves. With our knowledge from STA 141A-STA141C we decided to take on the challenge of building a claim status prediction system ourselves, using two powerful models to see which one performs the best.
-An additional challenge to this problem is that the final claim acceptance call is made by a real person, The Adjuster, who uses risk assessment and pricing prediction models available to them through their specific company policies, as well as human testimonies to decide the drivers’ fate. To imitate a human brain, we are using the Neural Network approach, specifically due to its’ layering feature which enables hierarchical learning, outputting a more complex and precise model with higher layers. And its competitor in our project is the Random Forests algorithm which imitates many mim-adjusters through the decision trees, and has the capability to highlight or ignore parts of the claims, just like a seasoned adjuster would be making an educated guess. Our focus for this project is auto insurance data exploration and Neural Network vs Random Forest comparison, since our team decided to practice in-depth data analysis rather than optimization. 
-
 Description of Data and Exploration
 
 For this project, we utilize historic data on insurance claims, demographic of the policyholders, previous claims, as well as the general vehicle information, to build our claim status prediction model. We found our 689 kB project data on Kaggle, which was posted by Sergey Litvinenko. Our data consists of 27 qualitative variables and 12 quantitative ones, and in order to successfully process and standardize the input for the model, we used data encoding for conversion of categorical variables into numeric ones, as well as signing binary ones with 1s and 0s. To prepare the data, we continued cleaning it by dropping missing values and dropping the  ‘policy_id’ column due to its’ lack of relevance. Policy ID is an indexing method used by insurance companies, but it is not necessary for our project, since we are not interested in the individual policyholders, but rather the trends that allow insurance claims to be accepted/denied. 
@@ -14,7 +8,6 @@ With the data set cleaned, our next step was to identify the most important feat
 
 
  ¹ “Number of Licensed Drivers in the US [2024-2025].” Hedges & Company.
-
 
 
 
